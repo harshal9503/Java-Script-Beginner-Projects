@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+body{
+    transition: 1s;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 30rem;         /* 1rem = 16px*/
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+}
+button{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 36px;
+}
